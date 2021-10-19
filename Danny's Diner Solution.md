@@ -266,7 +266,7 @@ Answer:
 
 Steps:
 - In dates_cte, we need to find out customer’s valid_date (6 days after join_date, including join_date) and last_day of Jan 2021 (which is ‘2021–01–31’).
-- Assuming: 
+- Assuming that: 
 - From Day-X to Day 1 (customer becomes member on Day 1 join_date), each $1 spent is 10 points and for sushi, each $1 spent is 20 points.
 - From Day 1 join_date to Day 7 valid_date, each $1 spent for all items is 20 points.
 - From Day 8 to last_day of Jan 2021, each $1 spent is 10 points and sushi is 2x points.
